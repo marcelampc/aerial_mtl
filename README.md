@@ -30,19 +30,19 @@ Red, Red and Green) images at 9cm / pixel, DSM and 2D and 3D semantic labeled ma
 
 ## Running
 
-First, run an instance of Visdom and choose the desired port to publish results (8001 in our example):
+First, run an instance of Visdom and choose the desired port to publish results (8072 in our example):
 
 ```
-$ visdom -port 8001
+$ visdom -port 8072
 ```
 
 We've prepared several scripts to run our experiments in [std_scripts](./std_scripts). For example, to run a training routine on DFC2018, in the main root, run:
 
 ```
-$ sh std_scripts/grss_dfc/grss_train.sh 0 8001 1 eweights
+$ sh std_scripts/grss_dfc/grss_train.sh 0 8072 1 eweights
 ```
 
-Code will expect a cuda device available with ID 0, Visdom running on 8001 and the multi-task learning method will be performed with uniform weighting. Check file to know standard parameters used.
+Code will expect a cuda device available with ID 0, Visdom running on 8072 and the multi-task learning method will be performed with uniform weighting. Check file to know standard parameters used.
 
 ![](./images/test.gif)
 
