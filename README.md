@@ -49,9 +49,3 @@ Code will expect a cuda device available with ID 0, Visdom running on 8001 and t
 ## License
 
 Code (scripts) are released under the GPLv3 license for non-commercial and research purposes only. For commercial purposes, please contact the authors.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
