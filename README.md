@@ -1,6 +1,6 @@
 # Multi-Task Learning for Aerial Images
 
-PyTorch implementation for aerial images for the datasets: [IEEE Data Fusion Contest 2018 (DFC2018)](http://www.grss-ieee.org/community/technical-committees/data-fusion/2018-ieee-grss-data-fusion-contest-results/) and [ISPRS-Vaihingen](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-vaihingen.html).
+PyTorch implementation to learn both semantics and height from the following aerial images datasets: [IEEE Data Fusion Contest 2018 (DFC2018)](http://www.grss-ieee.org/community/technical-committees/data-fusion/2018-ieee-grss-data-fusion-contest-results/) and [ISPRS-Vaihingen](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-vaihingen.html).
 
 ![](./images/dfc_prediction.png)
 
