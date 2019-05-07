@@ -16,7 +16,6 @@ which_raster='dsm_demtli'
 begin=1
 step=15
 end=121
-d_lr=0.0002
 g_lr=0.0002
 batch_size=6
 imageSize=320
@@ -45,7 +44,7 @@ tasks='depth semantics' # semantics, depth
 # when realizing tests
 # batch_size=2
 
-name='exp3_'$mtl_method"_"$model"_"$dataset_name"_"$netG"_DA_TTFFT_320x320__mb"$batch_size"_prep"$dfc_preprocessing'_noskips'
+name=$mtl_method"_"$model"_"$dataset_name"_"$netG"_DA_TTFFT_320x320__mb"$batch_size"_prep"$dfc_preprocessing'_noskips'
 
 python ./main_raster.py --name $name --dataroot ./datasets/$dataset/Phase2 --dataset_name $dataset_name --mtl_method $mtl_method --batchSize $batch_size --imageSize $imageSize --nEpochs $end --save_checkpoint_freq $step --model $model --display_id $display_id --display_freq $display_freq --port $port --net_architecture $net_architecture --val_freq $val_freq --val_split val --use_resize --use_dropout --pretrained --data_augmentation t t f f t --max_distance $max_d --scale_to_mm $scale --train --tasks $tasks --alpha $alpha --outputs_nc $outputs_nc --dfc_preprocessing $dfc_preprocessing --which_raster $which_raster #--use_skips
 
