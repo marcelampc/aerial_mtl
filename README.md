@@ -44,7 +44,7 @@ $ sh std_scripts/grss_dfc/grss_train.sh 0 8001 1 eweights
 
 Code will expect a cuda device available with ID 0, Visdom running on 8001 and the multi-task learning method will be performed with uniform weighting. Check file to know standard parameters used.
 
-![](./images/start_training_1.gif)
+![](./images/test.gif)
 
 ## License
 
